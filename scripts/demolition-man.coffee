@@ -48,4 +48,4 @@ module.exports = (robot) ->
   regex = new RegExp('(?:^|\\s)(' + words.join('|') + ')(?:\\s|\\.|\\?|!|$)', 'i');
 
   robot.hear regex, (msg) ->
-    msg.reply 'You have been fined one credit for a violation of the verbal morality statute.'
+    msg.reply 'You have been fined 500 naira for a violation of the verbal morality statute.'
