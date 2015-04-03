@@ -13,6 +13,5 @@
   "news.coffee",
   "pomodoro.coffee",
   "remind.coffee",
-  "roll.coffee",
-  "rsstodolist.coffee"
+  "roll.coffee"
 ]
