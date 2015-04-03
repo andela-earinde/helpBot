@@ -1,1 +1,19 @@
-[]
+[ 
+  "test", 
+  "abstract.coffee", 
+  "advice.coffee",
+  "ambush.coffee",
+  "announce.coffee",
+  "demolition-man.coffee",
+  "dice.coffee",
+  "eardropping.coffee",
+  "email.coffee",
+  "meme_captain.coffee",
+  "mindkiller.coffee",
+  "news.coffee",
+  "poem.coffee",
+  "pomodoro.coffee",
+  "remind.coffee",
+  "roll.coffee",
+  "rsstodolist.coffee"
+]
