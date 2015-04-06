@@ -17,9 +17,9 @@
 */
 
 module.exports = function(sonny) {    
-    sonny.hear(/sonny start the reminder at (\d+)/, function(msg) {
+    sonny.hear(/sonny start the reminder/, function(msg) {
         startReminder();
-        msg.send("reminder started at "+msg.match[1]);
+        msg.send("reminder started");
 
         function startReminder() {
             var dat = new Date(),
