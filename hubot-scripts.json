@@ -1,6 +1,6 @@
 [ 
-  "test", 
-  "abstract.coffee", 
+  "reminder", 
+  "abstract", 
   "advice.coffee",
   "ambush.coffee",
   "announce.coffee",
