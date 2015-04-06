@@ -27,7 +27,7 @@ module.exports = function(sonny) {
             min = dat.getMinutes(),
             sec = dat.getSeconds();
             if(hr == 08 && min == 00 && sec == 00) {
-                msg.send("Hi Guys, Dont forget to log your freckle timer and check your emails.");
+                msg.send("Hi Guys! Don't forget to log your freckle timer and check your emails.");
             }     
         }
         setInterval(startReminder, 500);
