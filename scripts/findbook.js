@@ -13,7 +13,7 @@
 module.exports = function(sonny) {
   sonny.respond(/get me a book on (\w+)/, function(msg) {
 	  var query = msg.match[1];
-	  var num  = Math.floor(Math.random() * 10 + 1);
+	  var num  = Math.floor(Math.random() * 3 + 1);
 	  sonny.http("http://it-ebooks-api.info/v1/search/"+query+"/page/"+num)
 	    .headers({'Content-Type': 'application/json'})
 	    .get()(function(err, res, body) {
