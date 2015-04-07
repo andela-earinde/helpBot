@@ -25,8 +25,7 @@ module.exports = function(sonny) {
 	           msg.send("This are the ones I found")
 	           for(var i = 0; i < 5; i++) {
 	             var book = data.Books[i];
-	             msg.send(book.Title);
-	             msg.send(Number(book.ID));
+	             msg.send(book.Title+":"+book.ID);
 	             msg.send(book.Image);
 	           }
 	           msg.send("Stop sending me to search for pirated books for you! :rage:")
