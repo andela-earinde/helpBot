@@ -19,7 +19,7 @@
 module.exports = function(sonny) {    
     sonny.hear(/sonny start the reminder/, function(msg) {
         startReminder();
-        msg.send("reminder started");
+        msg.send("Okay");
 
         function startReminder() {
             var dat = new Date(),
