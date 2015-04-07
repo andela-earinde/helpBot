@@ -1,6 +1,7 @@
 [ 
   "reminder", 
-  "abstract", 
+  "abstract",
+  "findbook", 
   "advice.coffee",
   "ambush.coffee",
   "announce.coffee",
