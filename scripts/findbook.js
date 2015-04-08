@@ -22,7 +22,7 @@ module.exports = function(sonny) {
 	       }
 	       else {
 	           var data  = JSON.parse(body);
-	           msg.send("This are the ones I found")
+	           msg.send("These are the ones I found")
 	           for(var i = 0; i < 5; i++) {
 	             var book = data.Books[i];
 	             msg.send(book.Title+":"+book.ID);
