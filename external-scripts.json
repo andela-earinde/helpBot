@@ -10,5 +10,8 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-youtube",
-  "gift"
+  "gift",
+  "hubot-standup-alarm",
+  "hubot-ambush",
+  "hubot-diagnostics"
 ]
