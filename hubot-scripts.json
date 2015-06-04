@@ -14,5 +14,6 @@
   "news.coffee",
   "pomodoro.coffee",
   "remind.coffee",
-  "roll.coffee"
+  "roll.coffee",
+  "hubot-standup-alarm"
 ]
